@@ -18,6 +18,15 @@ a{
 .bg-blue{
   background-color: #0033A1;
 }
+.bg-light-blue{
+  background-color: #0b285d;
+}
+.bg-light-yellow{
+  background-color: #F1C525;
+}
+.font-light-yellow{
+  color: #F1C525;
+}
 .font-gray{
   color: #9EA1A2;
 }
@@ -35,6 +44,9 @@ a{
 }
 .font-size-16{
   font-size: 16px;
+}
+.font-size-17{
+  font-size: 17px;
 }
 .font-size-14{
   font-size: 14px;
@@ -57,7 +69,9 @@ a{
 .btn-round{
   border-radius: 50px;
 }
-
+.round-10{
+  border-radius: 10px;
+}
 .footer-logo-link{
   position: relative;
   padding: 90px;

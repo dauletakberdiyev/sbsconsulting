@@ -11,45 +11,35 @@
       </button>
     </div>
   </section>
-  <section class="job-desc my-5 mx-4 pt-5">
+  <section class="job-desc mt-5 px-4 py-5  bg-dark-blue text-white">
     <div class="text-center font-size-32 fw-bold mb-3">
       {{ $t('home.job_desc.title_text')}}
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item font-size-16">
+      <li class="list-group-item font-size-16 bg-dark-blue text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
         </svg>
         {{$t('home.job_desc.job_1')}}
       </li>
-      <li class="list-group-item font-size-16">
+      <li class="list-group-item font-size-16 bg-dark-blue text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
         </svg>
         {{$t('home.job_desc.job_2')}}</li>
-      <li class="list-group-item font-size-16">
+      <li class="list-group-item font-size-16 bg-dark-blue text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
         </svg>
         {{$t('home.job_desc.job_3')}}</li>
-      <li class="list-group-item font-size-16">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-        </svg>
-        {{$t('home.job_desc.job_4')}}</li>
-      <li class="list-group-item font-size-16">
+      <li class="list-group-item font-size-16 bg-dark-blue text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
         </svg>
         {{$t('home.job_desc.job_5')}}</li>
-      <li class="list-group-item font-size-16">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square me-1" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-        </svg>
-        {{$t('home.job_desc.job_6')}}</li>
     </ul>
   </section>
-  <section class="summer-camp my-5 mx-4 pt-5">
+  <section class="summer-camp mb-5 mx-4 pt-5">
     <div class="text-center font-size-32 fw-bold mb-3">
       {{ $t('home.summer_camp.title_text') }}
     </div>
@@ -104,7 +94,43 @@
       </button>
     </div>
   </section>
-  <section class="consulting my-5 mx-4 pt-5">
+  <hr/>
+  <section class="europe-trip mb-5 mx-4 pt-4">
+    <div class="text-center font-size-32 fw-bold">
+      {{$t('home.europe.title_text')}}
+    </div>
+    <div class="font-size-17 d-flex justify-content-center mt-3">
+      <div class="text-center px-4 py-2 me-5 bg-light-blue font-light-yellow fw-bold w-100 round-10">
+        {{$t('home.europe.ad_1')}}
+      </div>
+      <div class="text-center px-4 py-2 bg-light-blue font-light-yellow fw-bold w-100 round-10">
+        {{$t('home.europe.ad_2')}}
+      </div>
+    </div>
+    <div class="desc mt-5">
+      <div class="d-flex">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right mt-2 me-1" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+        </svg>
+        <div class="text-start w-100">
+          {{$t('home.europe.desc_1')}}
+        </div>
+      </div>
+      <div class="d-flex mt-4">
+        <div class="text-end w-100">
+          {{$t('home.europe.desc_2')}}
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left mt-2 ms-1" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+        </svg>
+      </div>
+    </div>
+    <button class="btn bg-light-blue font-light-yellow mt-5 fw-bold py-3 w-100 font-size-18">
+      {{$t('home.europe.btn_text')}}
+    </button>
+  </section>
+  <hr/>
+  <section class="consulting mt-3 mb-5 mx-4 pt-5">
     <div class="text-center font-size-32 fw-bold">
       {{$t('home.consulting.title_text')}}
     </div>
