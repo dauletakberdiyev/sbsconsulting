@@ -125,7 +125,7 @@
         </svg>
       </div>
     </div>
-    <button class="btn bg-light-blue font-light-yellow mt-5 fw-bold py-3 w-100 font-size-18">
+    <button class="btn bg-light-blue font-light-yellow mt-5 fw-bold py-3 w-100 font-size-18" @click="this.redirectToWhatsapp()">
       {{$t('home.europe.btn_text')}}
     </button>
   </section>
