@@ -51,7 +51,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="card text-white">
-            <img src="/turkey2.webp" class="card-img" alt="..." width="350" height="450">
+            <img src="/turkey1.jpg" class="card-img" alt="..." width="350" height="450">
             <div class="card-img-overlay bg-img d-flex flex-column justify-content-between pb-5">
               <h1 class="card-title fw-bold">{{$t('home.summer_camp.turkey')}}</h1>
               <div>
@@ -68,7 +68,7 @@
         </div>
         <div class="carousel-item">
           <div class="card bg-dark text-white">
-            <img src="/germany2.jpg" class="card-img" alt="..." width="350" height="450">
+            <img src="/germany.jpg" class="card-img" alt="..." width="350" height="450">
             <div class="card-img-overlay bg-img d-flex flex-column justify-content-between pb-5">
               <h1 class="card-title fw-bold">{{$t('home.summer_camp.german')}}</h1>
               <div>
@@ -125,7 +125,7 @@
         </svg>
       </div>
     </div>
-    <button class="btn bg-light-blue font-light-yellow mt-5 fw-bold py-3 w-100 font-size-18" @click="this.redirectToWhatsapp()">
+    <button class="btn bg-light-blue font-light-yellow mt-5 fw-bold py-3 w-100 font-size-18" @click="this.redirectToWhatsappSecond()">
       {{$t('home.europe.btn_text')}}
     </button>
   </section>
@@ -155,6 +155,9 @@ export default {
   methods:{
     redirectToWhatsapp(){
       window.open(this.whatsappLink, '_blank');
+    },
+    redirectToWhatsappSecond(){
+      window.open(this.whatsappLinkSecond, '_blank');
     }
   }
 }
