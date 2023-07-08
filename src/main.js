@@ -12,6 +12,7 @@ const app = createApp(App)
 app.config.globalProperties.instagramLink = "https://www.instagram.com/step_by_step_consulting/"
 app.config.globalProperties.whatsappLink = "https://wa.me/77471804146"
 app.config.globalProperties.whatsappLinkSecond = "https://wa.me/77029976647"
+app.config.globalProperties.whatsappLinkThird = "https://wa.me/77476074340"
 
 app.use(router)
 app.use(i18n)
